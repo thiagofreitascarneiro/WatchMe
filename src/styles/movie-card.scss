@@ -4,7 +4,6 @@
   img {
     width: 14.31rem;
     height: 21.25rem;
-    cursor: pointer;
   }
 
   > div {
@@ -13,14 +12,16 @@
     bottom: 0;
     right: 0;
     left: 0;
-
+    cursor: pointer;
     display: flex;
     justify-content: center;
-
     background: rgba(31, 34, 41, 0.5);
+    
+  &:hover{top:-2px;box-shadow:0 2px 2px rgb(212, 193, 14); background:rgba(102, 102, 104, 0.2)
+  }
 
     .movie-info {
-      max-width: 12.31rem;
+      max-width: 15.30rem;
       width: 100%;
       
       display: flex;
